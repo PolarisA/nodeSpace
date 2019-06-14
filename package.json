@@ -1,0 +1,16 @@
+{
+  "name": "nodejack",
+  "version": "1.0.0",
+  "description": "reg for javaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reg",
+    "js",
+    "node"
+  ],
+  "author": "hankins",
+  "license": "ISC"
+}
