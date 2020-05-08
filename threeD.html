@@ -16,49 +16,142 @@
 </head>
 
 <body>
-<script src="lib/three.js"></script>
-<script>
-  var scene = new THREE.Scene(); //场景
-  var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000); // 相机
+    <!-- Shaders -->
+    <script type="x-shader/x-vertex" id="vertexshader">
+        // switch on high precision floats
+		#ifdef GL_ES
+		precision highp float;
+		#endif
+		
+		uniform float amplitude;
+		attribute float displacement;
+		varying vec3 vNormal;
 
-  var renderer = new THREE.WebGLRenderer(); // 渲染器
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  document.body.appendChild(renderer.domElement);
+		void main() {
+			vNormal = normal;
+			
+			// multiply our displacement by the
+			// amplitude. The amp will get animated
+			// so we'll have animated displacement
+			vec3 newPosition = position +  normal * vec3(displacement * amplitude);
+			gl_Position = projectionMatrix * modelViewMatrix * vec4(newPosition,1.0);
+		}
+	</script>
+    <script type="x-shader/x-fragment" id="fragmentshader">
+        #ifdef GL_ES
+		precision highp float;
+		#endif
+		
+		// same name and type as VS
+		varying vec3 vNormal;
 
-  var sphereMaterial = new THREE.MeshLambertMaterial({color: 0xcc0000})
+		void main() {
 
-  var radius = 50;
-  var segments = 16;
-  var rings = 16;
+			// calc the dot product and clamp
+			// 0 -> 1 rather than -1 -> 1
+			vec3 light = vec3(0.5,0.2,1.0);
+			
+			// ensure it's normalized
+			light = normalize(light);
+			
+			float dProd = max(0.0, dot(vNormal, light));
+			
+			// feed into our frag colour
+			gl_FragColor = vec4(dProd, dProd, dProd, 1.0);
+			
+		}
+	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="lib/three.js"></script>
+    <script type="text/javascript">
+    window.requestAnimFrame = (function() {
+        return window.requestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame ||
+            window.oRequestAnimationFrame ||
+            window.msRequestAnimationFrame ||
+            function( /* function */ callback, /* DOMElement */ element) {
+                window.setTimeout(callback, 1000 / 60);
+            };
+    })();
 
-  var sphere = new THREE.Mesh(new THREE.SphereBufferGeometry(radius, segments, rings), sphereMaterial)
+    var scene = new THREE.Scene(); //场景
+    var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 10000); // 相机
+    var renderer = new THREE.WebGLRenderer(); // 渲染器
+    camera.position.z = 300;
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
 
-  scene.add(sphere);
-  scene.add(camera);
 
-  var pointLight = new THREE.PointLight(0xFFFFFF)
-  pointLight.position.x = 10
-  pointLight.position.y = 50
-  pointLight.position.z = 130
-  scene.add(pointLight);
+    // var sphereMaterial = new THREE.MeshLambertMaterial({ color: 0xcc0000 })
 
-  // var geometry = new THREE.BoxGeometry(1, 1, 1);
-  // var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
-  // var cube = new THREE.Mesh(geometry, material);
-  // scene.add(cube);
+    // var radius = 50;
+    // var segments = 16;
+    // var rings = 16;
 
-  camera.position.z = 300;
-  var render = function () {
-    requestAnimationFrame(render);
+    var attributes = {
+        displacement: {
+            type: 'f', // a float
+            value: [] // an empty array
+        }
+    };
 
-    // cube.rotation.x += 0.015;
-    // cube.rotation.y += 0.025;
+    var uniforms = {
+        amplitude: {
+            type: 'f', // a float
+            value: 0
+        }
+    };
 
-    renderer.render(scene, camera);
-  };
+    var shaderMaterial = new THREE.MeshShaderMaterial({
+        uniforms: uniforms,
+        attributes: attributes,
+        vertexShader: $('#vertexshader').text(),
+        fragmentShader: $('#fragmentshader').text()
+    });
 
-  render();
-</script>
+
+    // var sphere = new THREE.Mesh(new THREE.SphereBufferGeometry(radius, segments, rings), sphereMaterial)
+
+    var sphere = new THREE.Mesh(new THREE.Sphere(radius, segments, rings), shaderMaterial)
+    // scene.add(sphere);
+    // scene.add(camera);
+    // 
+    var vertices = sphere.geometry.vertices;
+    var values = attributes.displacement.value
+    for (var v = 0; v < vertices.length; v++) {
+        values.push(Math.random() * 30);
+    }
+
+    scene.addChild(sphere);
+
+
+    // var pointLight = new THREE.PointLight(0xFFFFFF)
+    // pointLight.position.x = 10
+    // pointLight.position.y = 50
+    // pointLight.position.z = 130
+    // scene.add(pointLight);
+
+    // var geometry = new THREE.BoxGeometry(1, 1, 1);
+    // var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
+    // var cube = new THREE.Mesh(geometry, material);
+    // scene.add(cube);
+
+
+    var frame = 0;
+
+    function update() {
+
+        uniforms.amplitude.value = Math.sin(frame);
+        frame += 0.1;
+
+        renderer.render(scene, camera);
+
+        // set up the next call
+        requestAnimFrame(update);
+    }
+    requestAnimFrame(update);
+    </script>
 </body>
 
 </html>
