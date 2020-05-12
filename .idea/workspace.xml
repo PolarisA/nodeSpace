@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DoLet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JackReload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bits/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clazz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designMode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doClone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doKeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doPromise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doReduce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extendz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flatten.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forThis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hoocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objectDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/square/hello.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threeD.html" beforeDir="false" afterPath="$PROJECT_DIR$/threeD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unique.js" beforeDir="false" afterPath="$PROJECT_DIR$/unique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doIterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doRexg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoLet.js" beforeDir="false" afterPath="$PROJECT_DIR$/doLet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +51,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -112,6 +102,10 @@
       <workItem from="1588082138332" duration="9293000" />
       <workItem from="1588162015512" duration="4000" />
       <workItem from="1588836030275" duration="3555000" />
+      <workItem from="1588903350919" duration="9373000" />
+      <workItem from="1589254636322" duration="4196000" />
+      <workItem from="1589281596735" duration="38000" />
+      <workItem from="1589281648351" duration="38000" />
     </task>
     <servers />
   </component>
@@ -124,10 +118,15 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1451" y="-291" key="SettingsEditor" timestamp="1588082123039">
-      <screen x="-1920" y="-479" width="1920" height="1080" />
+    <state x="397" y="114" key="#Inspections" timestamp="1589005165695">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="114" key="#Inspections/0.0.1440.900/1329.-1200.1920.1200@0.0.1440.900" timestamp="1589005165695" />
+    <state x="352" y="157" key="SettingsEditor" timestamp="1589281682695">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1451" y="-291" key="SettingsEditor/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588082123039" />
+    <state x="352" y="157" key="SettingsEditor/0.0.1440.900/1329.-1200.1920.1200@0.0.1440.900" timestamp="1589281682695" />
     <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1" timestamp="1588085139585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
