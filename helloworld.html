@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>HelloWorld</title>
+</head>
+<script type="text/javascript"></script>
+<style type="text/css">
+body {
+    background: black
+}
+
+a {
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .15em;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 28px;
+    position: relative
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #65a835;
+    transition: width .3s ease 0s, left .3s ease 0s;
+    width: 0
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0
+}
+</style>
+
+<body>
+    <a href="https://stemkoski.github.io/Three.js/HelloWorld.html">Hello World</a>
+</body>
+
+</html>
