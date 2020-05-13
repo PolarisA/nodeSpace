@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JackReload.js" afterDir="false" />
@@ -27,6 +28,17 @@
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/threeD.html" beforeDir="false" afterPath="$PROJECT_DIR$/threeD.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unique.js" beforeDir="false" afterPath="$PROJECT_DIR$/unique.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/doArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doIterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doRexg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoLet.js" beforeDir="false" afterPath="$PROJECT_DIR$/doLet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> d771d49adfb94051e95c09f22b24c5616b2fcaad
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +75,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+=======
+>>>>>>> d771d49adfb94051e95c09f22b24c5616b2fcaad
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+>>>>>>> d771d49adfb94051e95c09f22b24c5616b2fcaad
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -113,9 +136,17 @@
       <workItem from="1587954763564" duration="765000" />
       <workItem from="1588082138332" duration="9293000" />
       <workItem from="1588162015512" duration="4000" />
+<<<<<<< HEAD
       <workItem from="1588324694697" duration="4593000" />
       <workItem from="1588565685494" duration="6000" />
       <workItem from="1588652757532" duration="1101000" />
+=======
+      <workItem from="1588836030275" duration="3555000" />
+      <workItem from="1588903350919" duration="9373000" />
+      <workItem from="1589254636322" duration="4196000" />
+      <workItem from="1589281596735" duration="38000" />
+      <workItem from="1589281648351" duration="38000" />
+>>>>>>> d771d49adfb94051e95c09f22b24c5616b2fcaad
     </task>
     <servers />
   </component>
@@ -128,18 +159,36 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="-1451" y="-291" key="SettingsEditor" timestamp="1588082123039">
       <screen x="-1920" y="-479" width="1920" height="1080" />
     </state>
     <state x="-1451" y="-291" key="SettingsEditor/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588082123039" />
+=======
+    <state x="397" y="114" key="#Inspections" timestamp="1589005165695">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="114" key="#Inspections/0.0.1440.900/1329.-1200.1920.1200@0.0.1440.900" timestamp="1589005165695" />
+    <state x="352" y="157" key="SettingsEditor" timestamp="1589281682695">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="-1451" y="-291" key="SettingsEditor/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588082123039" />
+    <state x="352" y="157" key="SettingsEditor/0.0.1440.900/1329.-1200.1920.1200@0.0.1440.900" timestamp="1589281682695" />
+>>>>>>> d771d49adfb94051e95c09f22b24c5616b2fcaad
     <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1" timestamp="1588085139585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588085139585" />
+<<<<<<< HEAD
     <state x="342" y="174" width="670" height="601" key="search.everywhere.popup" timestamp="1588324871818">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="342" y="174" width="670" height="601" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1588324871818" />
+=======
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581659357281">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+>>>>>>> d771d49adfb94051e95c09f22b24c5616b2fcaad
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581659357281" />
   </component>
 </project>

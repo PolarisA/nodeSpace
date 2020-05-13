@@ -49,3 +49,4 @@ p1.then(function fulfilled (msg) {
 }).catch(e => {
   console.log('catch e >>', e)
 })
+console.log('==== proTest >>>', proTest())
