@@ -10,6 +10,20 @@
 //   console.log('2222')
 // })
 
+function timeOut (delay) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      reject('Time out')
+    }, delay)
+  })
+}
+
+function delay (time) {
+  return new Promise((resolve, reject) => {
+    setTimeout(resolve, time)
+  })
+}
+
 function proTest () {
   return new Promise((resolve => {
     let a = 'aaa'
@@ -23,5 +37,16 @@ function proTest () {
   }))
 }
 
-console.log('==== proTest >>>', proTest())
+const p1 = new Promise((resolve, reject) => {
+  resolve(42)
+})
 
+p1.then(function fulfilled (msg) {
+  // foo.bar()
+  console.log(msg)
+}, function rejected (err) {
+  console.log('err =>>>', err)
+}).catch(e => {
+  console.log('catch e >>', e)
+})
+console.log('==== proTest >>>', proTest())

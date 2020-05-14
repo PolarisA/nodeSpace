@@ -1,138 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/debounce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/doGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/throttle.js" beforeDir="false" afterPath="$PROJECT_DIR$/throttle.js" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/nodeJack.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1VSqCfnTWp87OwH1vCQWbZPKYKZ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="" />
-      <created>1560566329666</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1560566329666</updated>
-      <workItem from="1560566333557" duration="34000" />
-      <workItem from="1560566384968" duration="39000" />
-      <workItem from="1573442503167" duration="1643000" />
-      <workItem from="1573541035082" duration="14966000" />
-      <workItem from="1574059001224" duration="4475000" />
-      <workItem from="1574928498215" duration="3134000" />
-      <workItem from="1577256719286" duration="2274000" />
-      <workItem from="1577267797604" duration="479000" />
-      <workItem from="1579403732287" duration="4513000" />
-      <workItem from="1579572008239" duration="4178000" />
-      <workItem from="1579580116838" duration="672000" />
-      <workItem from="1581082450020" duration="779000" />
-      <workItem from="1581147404959" duration="228000" />
-      <workItem from="1581312142813" duration="2047000" />
-      <workItem from="1581513877287" duration="248000" />
-      <workItem from="1581644242392" duration="8543000" />
-      <workItem from="1584661876052" duration="130000" />
-      <workItem from="1585884216305" duration="2446000" />
-      <workItem from="1587453671357" duration="3420000" />
-      <workItem from="1587954763564" duration="765000" />
-      <workItem from="1588082138332" duration="9293000" />
-      <workItem from="1588162015512" duration="4000" />
-      <workItem from="1588836030275" duration="3555000" />
-      <workItem from="1588903350919" duration="9373000" />
-      <workItem from="1589254636322" duration="4196000" />
-      <workItem from="1589281596735" duration="38000" />
-      <workItem from="1589281648351" duration="38000" />
-      <workItem from="1589281698778" duration="237000" />
-      <workItem from="1589336887851" duration="1977000" />
-      <workItem from="1589420802384" duration="7185000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/square/hello.js" />
-      </list>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="397" y="114" key="#Inspections" timestamp="1589005165695">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="397" y="114" key="#Inspections/0.0.1440.900/1329.-1200.1920.1200@0.0.1440.900" timestamp="1589005165695" />
-    <state x="352" y="157" key="SettingsEditor" timestamp="1589281682695">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="-1451" y="-291" key="SettingsEditor/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588082123039" />
-    <state x="352" y="157" key="SettingsEditor/0.0.1440.900/1329.-1200.1920.1200@0.0.1440.900" timestamp="1589281682695" />
-    <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1" timestamp="1588085139585">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588085139585" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581659357281">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581659357281" />
-  </component>
+    <component name="ChangeListManager">
+        <list default="true" id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="">
+
+            <change afterPath="$PROJECT_DIR$/doArray.js" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/doGenerator.js" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/doIterator.js" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/doModel.js" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/doNode.js" afterDir="false"/>
+            <change afterPath="$PROJECT_DIR$/doRexg.js" afterDir="false"/>
+
+            <change beforePath="$PROJECT_DIR$/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/debounce.js"
+                    afterDir="false"/>
+            <change beforePath="$PROJECT_DIR$/doGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/doGenerator.js"
+                    afterDir="false"/>
+            <change beforePath="$PROJECT_DIR$/throttle.js" beforeDir="false" afterPath="$PROJECT_DIR$/throttle.js"
+                    afterDir="false"/>
+
+        </list>
+        <option name="SHOW_DIALOG" value="false"/>
+        <option name="HIGHLIGHT_CONFLICTS" value="true"/>
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
+        <option name="LAST_RESOLUTION" value="IGNORE"/>
+    </component>
+    <component name="FileTemplateManagerImpl">
+        <option name="RECENT_TEMPLATES">
+            <list>
+                <option value="TypeScript File"/>
+                <option value="JavaScript File"/>
+            </list>
+        </option>
+    </component>
+    <component name="Git.Settings">
+        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$"/>
+    </component>
+    <component name="ProjectConfigurationFiles">
+        <option name="files">
+            <list>
+                <option value="$PROJECT_DIR$/.idea/nodeJack.iml"/>
+                <option value="$PROJECT_DIR$/.idea/misc.xml"/>
+                <option value="$PROJECT_DIR$/.idea/modules.xml"/>
+            </list>
+        </option>
+    </component>
+    <component name="ProjectId" id="1VSqCfnTWp87OwH1vCQWbZPKYKZ"/>
+    <component name="ProjectLevelVcsManager">
+        <ConfirmationsSetting value="2" id="Add"/>
+    </component>
+    <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true"/>
+        <option name="showExcludedFiles" value="true"/>
+        <option name="showLibraryContents" value="true"/>
+    </component>
+
+    <component name="RecentsManager">
+        <key name="CopyFile.RECENT_KEYS">
+            <recent name="$PROJECT_DIR$"/>
+        </key>
+    </component>
+
+    <component name="ServiceViewManager">
+        <option name="viewStates">
+            <list>
+                <serviceView>
+                    <treeState>
+                        <expand/>
+                        <select/>
+                    </treeState>
+                </serviceView>
+            </list>
+        </option>
+    </component>
+    <component name="SvnConfiguration">
+        <configuration/>
+    </component>
+    <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+            <changelist id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment=""/>
+            <created>1560566329666</created>
+            <option name="number" value="Default"/>
+            <option name="presentableId" value="Default"/>
+            <updated>1560566329666</updated>
+            <workItem from="1560566333557" duration="34000"/>
+            <workItem from="1560566384968" duration="39000"/>
+            <workItem from="1573442503167" duration="1643000"/>
+            <workItem from="1573541035082" duration="14966000"/>
+            <workItem from="1574059001224" duration="4475000"/>
+            <workItem from="1574928498215" duration="3134000"/>
+            <workItem from="1577256719286" duration="2274000"/>
+            <workItem from="1577267797604" duration="479000"/>
+            <workItem from="1579403732287" duration="4513000"/>
+            <workItem from="1579572008239" duration="4178000"/>
+            <workItem from="1579580116838" duration="672000"/>
+            <workItem from="1581082450020" duration="779000"/>
+            <workItem from="1581147404959" duration="228000"/>
+            <workItem from="1581312142813" duration="2047000"/>
+            <workItem from="1581513877287" duration="248000"/>
+            <workItem from="1581644242392" duration="8543000"/>
+            <workItem from="1584661876052" duration="130000"/>
+            <workItem from="1585884216305" duration="2446000"/>
+            <workItem from="1587453671357" duration="3420000"/>
+            <workItem from="1587954763564" duration="765000"/>
+            <workItem from="1588082138332" duration="9293000"/>
+            <workItem from="1588162015512" duration="4000"/>
+        </task>
+        <servers/>
+    </component>
+    <component name="TypeScriptGeneratedFilesManager">
+        <option name="version" value="1"/>
+        <option name="exactExcludedFiles">
+            <list>
+                <option value="$PROJECT_DIR$/square/hello.js"/>
+            </list>
+        </option>
+    </component>
+    <component name="WindowStateProjectService">
+
+        <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1" timestamp="1588085139585">
+            <screen x="0" y="0" width="1440" height="900"/>
+        </state>
+        <state x="96" y="0" width="1230" height="900" maximized="true"
+               key="dock-window-1/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588085139585"/>
+        <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900"
+               timestamp="1581659357281"/>
+    </component>
 </project>
