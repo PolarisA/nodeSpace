@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doIterator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doNode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doRexg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoLet.js" beforeDir="false" afterPath="$PROJECT_DIR$/doLet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/debounce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/doGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/throttle.js" beforeDir="false" afterPath="$PROJECT_DIR$/throttle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +102,9 @@
       <workItem from="1589254636322" duration="4196000" />
       <workItem from="1589281596735" duration="38000" />
       <workItem from="1589281648351" duration="38000" />
+      <workItem from="1589281698778" duration="237000" />
+      <workItem from="1589336887851" duration="1977000" />
+      <workItem from="1589420802384" duration="7185000" />
     </task>
     <servers />
   </component>

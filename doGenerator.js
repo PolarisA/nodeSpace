@@ -1,15 +1,20 @@
-// function * foo () {
-//   let x = yield 1
-//   let y = yield 2
-//   let z = yield 3
-//   console.log(x, y, z)
-// }
-//
-// let it = foo()
+function run (gen) {
+  const g = gen()
 
-// for (let i = 0; i < 4; i++) {
-//   console.log('it >>', it.next(i + '--'))
-// }
+  function next (data) {
+    let res = g.next(data)
+
+    if (res.done) {
+      return res.value
+    }
+
+    res.value.then(function (data) {
+      next(data)
+    })
+  }
+
+  next()
+}
 
 function * foo () {
   try {
