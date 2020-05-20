@@ -143,3 +143,81 @@
 
    - 调用父构造函数实现继承
 
+2. `call()`的模拟实现
+
+   ```javascript
+   Function.prototype.call2 = function(context){
+     context = context ? Object(context) : window
+     context.fn = this
+     
+     let args = [...arguments].slice(1)
+     let result = context.fn(...args)
+     
+     delete context.fn
+     return result
+   }
+   ```
+
+3. `apply()`的模拟实现
+
+   ```javascript
+   Function.prototype.apply2 = function(context,arr){
+     context = context ? Object(context) : window
+     context.fn = this
+     
+     let result
+     if(!arr){
+       result = context.fn()
+     }else{
+       result = context.fn(...arr)
+     }
+     
+     delete context.fn
+     return result
+   }
+   ```
+
+
+
+##### `bind()`原理、使用场景及模拟实现
+
+> `bind()`方法会创建一个新函数，当这个新函数被调用时，它的`this`值是传递给bind()的第一个参数，传入`bind()`方法的第二个以及以后的参数加上绑定函数运行时本身的参数顺序作为原函数的参数来调用原函数。`bind`返回的绑定函数也能使用`new操作符`创建对象。这种行为就像把原函数当成构造器，提供的this值被忽略，同时调用时的参数被提供给模拟函数。
+
+- `bind()`与`call`/`apply`的最大区别就是**前者返回了一个绑定上下文的函数**，而**后者都是直接执行了函数**
+- 模拟实现
+  1. 可以指定this
+  2. 返回一个函数
+  3. 可以传入参数
+  4. 柯里化
+
+
+
+##### `new`原理以及模拟实现
+
+> new 运算符创建一个用户定义的对象类型的实例或具有构造函数的内置对象的实例。
+
+- new的两个基本特性
+
+  1. 访问到构造函数里的属性
+  2. 访问到原型里的属性
+
+  PS ： ES6新增`symbol`类型，不可以使用 `new Symbol()`,因为`symbol`是`基本数据类型`，每个从`Symbol()`返回的Symbol值都是`唯一`的
+
+- 模拟实现
+
+  -  当代码`new Foo(...)`执行时，会发生以下事情：
+    1. 一个继承自Foo.prototype的新对象被创建
+    2. 使用指定的参数调用构造函数Foo，并将this绑定到新创建的对象。new Foo 等同于 new Foo()，也就是没有指定的参数列表，Foo不带任何参数调用的情况。
+    3. 由构造函数返回的对象就是new表达式的结果。如果构造函数没有显式返回一个对象，则使用步骤1创建对象。
+  - 模拟实现1：
+    - new是关键词，不可以直接覆盖。这里使用create来模拟实现new的效果。
+    - new返回一个新对象，通过`obj.__proto__ = Con.prototype`继承构造函数的原型，同时通过`Con.apply(obj,arguments)`调用父构造函数实现继承，获取构造函数上的属性。
+
+
+
+
+
+
+
+
+
