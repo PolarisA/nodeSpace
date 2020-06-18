@@ -188,14 +188,30 @@
 
 ##### `bind()`原理、使用场景及模拟实现
 
-> `bind()`方法会**创建一个新函数**，当这个新函数被调用时，它的`this`值是传递给bind()的第一个参数，传入`bind()`方法的第二个以及以后的参数加上绑定函数运行时本身的参数顺序作为原函数的参数来调用原函数。`bind`返回的绑定函数也能使用`new操作符`创建对象。这种行为就像把原函数当成构造器，提供的this值被忽略，同时调用时的参数被提供给模拟函数。
+> `bind()`方法会**创建一个新函数**，当这个新函数被调用时，它的`this`值是传递给`bind()`的第一个参数，传入`bind()`方法的第二个以及以后的参数加上绑定函数运行时本身的参数顺序作为原函数的参数来调用原函数。`bind`返回的绑定函数也能使用`new操作符`创建对象。这种行为就像把原函数当成构造器，提供的this值被忽略，同时调用时的参数被提供给模拟函数。
 
 - `bind()`与`call`/`apply`的最大区别就是**前者返回了一个绑定上下文的函数**，而**后者都是直接执行了函数**
+
 - 模拟实现
   1. 可以指定this
   2. 返回一个函数
   3. 可以传入参数
   4. 柯里化
+  
+  ```javascript
+  Function.prototype.mockBind = function (context) {
+    context = context ? Object(context) : window
+  
+    let self = this
+    const args = [...arguments].slice(1)
+  
+    return function () {
+      let _args = args.concat([...arguments])
+  
+      return self.apply(context, _args)
+    }
+  }
+  ```
 
 
 
