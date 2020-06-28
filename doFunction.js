@@ -1,5 +1,11 @@
 const base = [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
+/**
+ * 手动实现 reduce
+ * @param callBackFn
+ * @param initialValue
+ * @returns {*}
+ */
 Array.prototype.reduceV2 = function (callBackFn, initialValue) {
   if (this === null) {
     throw new TypeError('cannot read prototype reduce of Array')

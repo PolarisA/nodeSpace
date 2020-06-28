@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29e37310-4287-47a2-981b-59083eabec46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doNew.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loadShow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runBind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Destructuring.js" beforeDir="false" afterPath="$PROJECT_DIR$/Destructuring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/debounce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/doAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/doFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/runArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/throttle.js" beforeDir="false" afterPath="$PROJECT_DIR$/throttle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Markdown" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -39,9 +50,15 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -61,7 +78,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb98eaac-19bc-448c-ab6b-be8c5c2dff86" name="Default Changelist" comment="" />
+      <changelist id="29e37310-4287-47a2-981b-59083eabec46" name="Default Changelist" comment="" />
       <created>1560566329666</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -88,6 +105,21 @@
       <workItem from="1587954763564" duration="765000" />
       <workItem from="1588082138332" duration="9293000" />
       <workItem from="1588162015512" duration="4000" />
+      <workItem from="1590563602548" duration="1681000" />
+      <workItem from="1590574444493" duration="530000" />
+      <workItem from="1590645926080" duration="1493000" />
+      <workItem from="1590656126509" duration="738000" />
+      <workItem from="1590737260026" duration="6800000" />
+      <workItem from="1591081816094" duration="214000" />
+      <workItem from="1591088390099" duration="247000" />
+      <workItem from="1591235202626" duration="765000" />
+      <workItem from="1591413461587" duration="516000" />
+      <workItem from="1591861139182" duration="1407000" />
+      <workItem from="1591865043224" duration="2520000" />
+      <workItem from="1592288697306" duration="14257000" />
+      <workItem from="1592378988272" duration="43687000" />
+      <workItem from="1592876254713" duration="1808000" />
+      <workItem from="1593328270939" duration="2000" />
     </task>
     <servers />
   </component>
@@ -104,6 +136,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="96" y="0" width="1230" height="900" maximized="true" key="dock-window-1/0.0.1440.900/-1920.-479.1920.1080@-1920.-479.1920.1080" timestamp="1588085139585" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581659357281" />
+    <state x="313" y="196" width="701" height="508" key="find.popup" timestamp="1591413544551">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="313" y="196" width="701" height="508" key="find.popup/0.0.1440.900/874.-1200.1920.1200@0.0.1440.900" timestamp="1591413544551" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592567060720">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/874.-1200.1920.1200@0.0.1440.900" timestamp="1592567060720" />
   </component>
 </project>

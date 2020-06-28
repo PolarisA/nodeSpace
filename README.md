@@ -1,6 +1,6 @@
-### Code review
+### JavaScript Code Line
 
-> 异步系列
+##### 异步系列
 
 1. setTimeout、 Promise、 async/await的区别
 
@@ -43,8 +43,6 @@
 
      
 
-
-
 2. JS异步解决方案的优缺点
    1. 回调函数（callBack）
       - 回调地狱
@@ -61,7 +59,7 @@
 
 
 
-> JavaScript 专题系列
+##### JavaScript 专题系列
 
 1. 防抖 「debounce」
 
@@ -124,7 +122,7 @@
 
 
 
-> JavaScript 基础概念相关
+##### JavaScript 基础概念相关
 
 1. 执行上下文栈和变量对象
 

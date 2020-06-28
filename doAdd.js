@@ -1,3 +1,7 @@
+/**
+ * 柯里化求和
+ * @returns {temp}
+ */
 function add () {
   let res = [...arguments].reduce((a, b) => {
     return a + b

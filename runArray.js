@@ -715,6 +715,60 @@ function doKeys (array) {
 //   return arr
 // }
 
+/**
+ * 冒泡排序
+ * @returns {Array}
+ */
+Array.prototype.bubleSort = function () {
+  let arr = this
+  let len = arr.length
+
+  for (let i = len; len >= 2; i--) {
+    for (let j = 0; j <= i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
+      }
+    }
+  }
+
+  return arr
+}
+
+/**
+ * 选择排序
+ * @returns {Array}
+ */
+Array.prototype.selectSort = function () {
+  let arr = this
+  let len = arr.length
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i; j < len; j++) {
+      if (arr[i] > arr[j]) {
+        [arr[i], arr[j]] = [arr[j], arr[i]]
+      }
+    }
+  }
+
+  return arr
+}
+
+function sum (arr) {
+  let len = arr.length
+
+  if (!len) {
+    return 0
+  } else if (len === 1) {
+    return arr[0]
+  } else {
+    return arr[0] + sum(arr.slice(1))
+  }
+}
+
+let _sortMock = [...new Set(arrayC.flat(Infinity))]
+
+console.log('=== _sortMock >>>', _sortMock)
+console.log('====== _sortMock.selectSort() >>>', _sortMock.selectSort())
 
 // console.log('==== origin arrayD >>>>', arrayD.sort())
 // console.log('==== origin arrayA >>>>', arrayA)

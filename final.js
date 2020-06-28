@@ -26,3 +26,4 @@ prototpye(Child, Parent)
 let child1 = new Child('Kevin', 25)
 
 console.log(child1)
+
